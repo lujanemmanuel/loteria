@@ -23,6 +23,7 @@ public class Eleccion extends javax.swing.JFrame {
     public static String tabla10[][]={{"38","39","18","19"},{"47","48","27","28"},{"2","3","36","37"},{"11","12","45","46"}};
     public Eleccion() {
         initComponents();
+        System.out.println("Hello, world");
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
     }
     public String[][] cartaMaquina(int numTabla){
