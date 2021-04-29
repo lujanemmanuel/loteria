@@ -29,7 +29,7 @@ public class Music implements Runnable {
             
             FileInputStream fis;
             Player player;
-            String cancion=System.getProperty("user.dir")+"/src/Sound/Songs"+Canciones[cant]+".mp3";
+            String cancion=System.getProperty("user.dir")+"/src/Sound/Songs/"+Canciones[cant]+".mp3";
             fis = new FileInputStream(cancion);
             
             BufferedInputStream bis = new BufferedInputStream(fis);
