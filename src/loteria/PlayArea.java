@@ -44,6 +44,7 @@ public class PlayArea extends javax.swing.JFrame {
         this.play = new Thread(reproduce);
         play.start();
         initComponents();
+        this.setLocationRelativeTo(null);
         jJugador.setText(jugador);
 
         jug1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Thumbnails/" + seleccionada[0][0] + ".png")));
